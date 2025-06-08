@@ -66,68 +66,6 @@ a:hover {
   cursor: default;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    position: fixed;
-    top: 80px;
-    left: 0;
-    right: 0;
-    background-color: black;
-    opacity: 90%;
-    padding: 20px;
-    flex-direction: column;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .menu-btn {
-    display: block;
-  }
-
-  .hologram-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-content {
-    order: 2;
-  }
-
-  .profile-image {
-    order: 1;
-  }
-
-  .social-links {
-    justify-content: center;
-  }
-
-  .hero-content h1 {
-    font-size: 36px;
-  }
-
-  .projects-grid {
-    flex-direction: column;
-  }
-
-  .skills-grid {
-    flex-direction: column;
-    gap: 40px;
-    padding: 20px;
-    grid-template-columns: 1fr;
-  }
-
-  .skill-category {
-    max-width: 100%;
-  }
-}
-
 /* HAMBURGER MENU */
 
 #hamburger-nav {
