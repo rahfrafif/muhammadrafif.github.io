@@ -300,6 +300,10 @@ section {
   text-align: center;
 }
 
+.text-container p:first-child {
+  margin-bottom: 20px;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
