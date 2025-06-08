@@ -66,6 +66,72 @@ a:hover {
   cursor: default;
 }
 
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  /* Reset container padding untuk mobile */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      padding: 10px;
+  }
+  
+  /* Navigation untuk mobile */
+  nav {
+      flex-direction: column;
+      padding: 10px;
+  }
+  
+  /* Hero section untuk mobile */
+  .hero-section {
+      flex-direction: column !important;
+      text-align: center;
+      padding: 20px 10px;
+  }
+  
+  /* Profile image untuk mobile */
+  .profile-image {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 20px;
+  }
+  
+  /* Typography untuk mobile */
+  h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+  }
+  
+  h2 {
+      font-size: 1.2rem;
+  }
+  
+  /* About section untuk mobile */
+  .about-cards {
+      flex-direction: column;
+      gap: 15px;
+  }
+  
+  .card {
+      margin-bottom: 15px;
+  }
+  
+  /* Contact info button */
+  .contact-btn {
+      margin: 20px 0;
+  }
+  
+  /* Social media icons */
+  .social-icons {
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+  }
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
